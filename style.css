@@ -1,0 +1,56 @@
+.black {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: -2px;
+    background-color: black;
+}
+
+.aqua {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: -2px;
+    background-color: aqua;
+}
+
+table {
+    height: 456px;
+    width: 800px;
+}
+
+table,
+td {
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background: red;
+}
+
+tr:nth-child(even) {
+    background: white;
+}
+
+* {
+    margin: 20px;
+}
+
+.star {
+    background-color: blue;
+    height: 245px;
+    width: 288px;
+    margin-top: -476px;
+    margin-left: 38px;
+    ;
+}
+
+p {
+    font-size: 28px;
+    color: whitesmoke;
+    line-height: 7px;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-top: 2px;
+    ;
+}
